@@ -6,18 +6,12 @@
 
 ## Project Overview
 
-- Briefly describe the project and its purpose.
-
+- the project is for the user to use  it to be able to give private what if messages  anonmouysly
 ## Endpoints
 
 - List all the endpoints of the API in this project with a brief description of what each endpoint does.
-
-## Technologies Used
-
-- List the technologies and tools used in the project:
     - **Languages**: HTML, CSS, JavaScript
-    - **Libraries**: (e.g., GSAP for animations)
-    - **Other**: Figma for design, Adobe Illustrator for illustrations, OpenAI for A.I. generated assets, etc.
+
 
 ## Credits
 
@@ -26,4 +20,4 @@
 
 ## Future Enhancements
 
-- List any features you would’ve liked to add if given more time
+- if i had mor knowdlefe
