@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+
+<div class="wall">
+  {{#each entries}}
+    <div class="note" style="background-color: {{this.color}}; transform: rotate({{randomTilt}}deg)">
+      <p>{{this.text}}</p>
+      <small>{{this.createdAt}}</small>
+    </div>
+  {{/each}}
+</div>
+
+<form action="/entries" method="POST" class="note-form">
+  <textarea name="text" placeholder="What if I said it?" required></textarea>
+  <input type="color" name="color" value="#f5e663" required>
+  <button type="submit">Post Note</button>
+</form>
