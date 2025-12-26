@@ -15,9 +15,7 @@
 
 ## Credits
 
-- List any third-party assets used in the project (e.g., sound effects, images, fonts) and provide proper attribution.
-- Acknowledge any resources, tutorials, or references you used to help complete the project.
-
+i used youtube for any refrences that i needed for some of the coding that i needed help with.
 ## Future Enhancements
 
 - if i had more knowdlege on how to make certain api to work. like to exploreit into something simmilar to tumbler
