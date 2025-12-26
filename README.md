@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-- the project is for the user to use  it to be able to give private what if messages  anonmouysly
+- this project is for  what if messages if the user wantds to include a message anoymously for the public to read
 ## Endpoints
 
 - List all the endpoints of the API in this project with a brief description of what each endpoint does.
@@ -20,4 +20,4 @@
 
 ## Future Enhancements
 
-- if i had mor knowdlefe
+- if i had more knowdlege on how to make certain api to work. like to exploreit into something simmilar to tumbler
