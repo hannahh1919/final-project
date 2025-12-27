@@ -11,15 +11,17 @@ var entriesRouter = require('./routes/entries');
 var app = express();
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/publicarchive', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://archiveUSER:<YOUANDI0.7>@cluster0.q6ljkld.mongodb.net/?appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
 
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-db.once('open', function() {
-  console.log('Connected to MongoDB');
+mongoose.connection.on('connected', () => {
+  console.log('MongoDB connected');
+});
+
+mongoose.connection.on('error', (err) => {
+  console.error('MongoDB connection error:', err);
 });
 
 // view engine setup
