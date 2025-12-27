@@ -11,7 +11,7 @@ var entriesRouter = require('./routes/entries');
 var app = express();
 
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://archiveUSER:YOUANDI0.7@cluster0.q6ljkld.mongodb.net/publicArchive');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://tempestm324_db_user:<MZDRggO3xRK19u1m>@thisone.k6vguyg.mongodb.net/?appName=thisone');
 
 mongoose.connection.on('connected', () => {
   console.log('MongoDB connected');
